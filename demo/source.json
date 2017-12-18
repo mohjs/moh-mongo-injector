@@ -1,0 +1,71 @@
+{
+  "User": [
+    {
+      "hashedPassword": "hashedPassword",
+      "mobile": "+86 18303033030",
+      "email": "ole3021@gmail.com",
+      "username": "ole3021",
+      "realName": "Oliver.W",
+      "country": "China",
+      "province": "上海",
+      "city": "上海",
+      "address": "静安区"
+    }
+  ],
+  "Event": [
+    {
+      "title": "DucklabEvnet",
+      "postImage": "https://avatars0.githubusercontent.com/u/32359532?s=70&v=4",
+      "eventStartAt": "2017-11-20T00:00:00.000Z",
+      "eventEndAt": "2017-11-22T00:00:00.000Z",
+      "checkInStartAt": "2017-11-20T00:00:00.000Z",
+      "checkInEndAt": "2017-11-20T10:00:00.000Z",
+      "isAutoCheckIn": true,
+      "country": "China",
+      "province": "上海",
+      "city": "上海",
+      "address": "静安区",
+      "checkInType": "QR_CODE_GENERAL"
+    },
+    {
+      "title": "WiredcraftEvent",
+      "postImage": "https://avatars2.githubusercontent.com/u/496772?s=70&v=4",
+      "eventStartAt": "2017-12-20T00:00:00.000Z",
+      "eventEndAt": "2017-12-22T00:00:00.000Z",
+      "checkInStartAt": "2017-12-20T00:00:00.000Z",
+      "checkInEndAt": "2017-12-20T10:00:00.000Z",
+      "country": "China",
+      "province": "上海",
+      "city": "上海",
+      "address": "静安区",
+      "checkInType": "QR_CODE_GENERAL"
+    },
+    {
+      "title": "WeedingEvent",
+      "postImage": "none",
+      "eventStartAt": "2018-12-20T00:00:00.000Z",
+      "eventEndAt": "2018-12-22T00:00:00.000Z",
+      "checkInStartAt": "2018-12-20T00:00:00.000Z",
+      "checkInEndAt": "2018-12-20T10:00:00.000Z",
+      "country": "China",
+      "province": "黑龙江",
+      "city": "哈尔滨",
+      "address": "道里区",
+      "checkInType": "QR_CODE_GENERAL"
+    }
+  ],
+  "Registration": [
+    {
+      "user": "#User#username#ole3021",
+      "event": "#Event#title#DucklabEvnet",
+      "mobile": "+86 18303033030",
+      "registCode": "Er4X2dfG"
+    },
+    {
+      "user": "#User#username#ole3021",
+      "event": "#Event#title#WiredcraftEvent",
+      "mobile": "+86 18303033030",
+      "registCode": "X4dw6XSa"
+    }
+  ]
+}
