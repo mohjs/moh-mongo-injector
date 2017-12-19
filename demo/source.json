@@ -67,5 +67,20 @@
       "mobile": "+86 18303033030",
       "registCode": "X4dw6XSa"
     }
+  ],
+  "AccessToken": [
+    {
+      "accessToken": "testToken",
+      "accessTokenExpiresAt": "2317-12-17 08:26:35.647Z",
+      "refreshToken": "refreshToken",
+      "refreshTokenExpiresAt": "2317-12-17 08:26:35.647Z",
+      "user": {
+        "userId": "#User#username#ole3021"
+      },
+      "client": {
+        "grants": ["password"],
+        "clientId": "test"
+      }
+    }
   ]
 }
