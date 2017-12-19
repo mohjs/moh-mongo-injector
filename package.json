@@ -1,6 +1,6 @@
 {
   "name": "moh-mongo-injector",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Inject JSON data into mongo serially with reference available",
   "main": "lib/index.js",
   "directories": {
