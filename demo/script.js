@@ -11,6 +11,7 @@ mongoose.Promise = Promise
 require('./models/event')(mongoose)
 require('./models/user')(mongoose)
 require('./models/registration')(mongoose)
+require('./models/accessToken')(mongoose)
 
 mongoose.connect('mongodb://127.0.0.1/demo_mongo_injector', {useMongoClient: true})
   .then(() => flashDB())
