@@ -16,6 +16,7 @@ require('./models/accessToken')(mongoose)
 mongoose.connect('mongodb://127.0.0.1/demo_mongo_injector', {useMongoClient: true})
   .then(() => flashDB())
   .then(() => injector(source, { models: mongoose.models }))
+  .then((data) => console.log('>>> inject success with: \n', data))
   .catch(err => console.log)
 
 
